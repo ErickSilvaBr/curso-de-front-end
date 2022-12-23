@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Âncora e links</title>
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-</body>
     <!--
         + Atributos
           -globais
@@ -29,6 +33,7 @@
         <li><a href="mailto:mayk@rocketseat.com.br">email</a></li>
         <li><a href="tel:+5527995030291">telefone</a></li>
     </ul>     -->
+    <hr>
 
     <ul>
         <li><a href="#about">Sobre</a></li>
@@ -51,6 +56,67 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est excepturi eius facilis nobis doloremque ipsam saepe dolor maiores officia, assumenda minus vero quidem, aut a ad aperiam rem. Libero, sequi.</p>
     </div>
 
-    
+    <hr>
+
+    <!--
+        Conteúdo dos hyperlinks
+
+        - qualquer conteúdo
+    -->
+
+    <a href="https://google.com" target="_blank" title="Ir para o google">
+        <h1>Google</h1>
+        <img src="https://source.unsplash.com/random" alt="">
+    </a>
+
+    <hr>
+
+    <!--
+        URLS e caminhos dos arquivos
+
+        - Uniform Resource Locator(URL)
+            - https://google.com
+            - Sequênciade texto que define onde algo está localizado na web
+        - URL usam caminhos para encontrar arquivos
+
+        - Caminhos dos arquivos
+            - Onde, no explorador de arquivos, um recurso está localizado
+    -->
+
+    <a href="listas.html"><h1>Abrir listas</h1></a>
+
+    <hr>
+
+    <!--
+        Navengando pelos diretórios
+
+        use ../
+        ou o nome da pasta
+
+    -->
+
+    <a href=".."></a>
+
+    <hr>
+
+    <section>
+        <!--
+            URLs absolutos versus relativos
+
+            - Absolutos
+                - inclui protocolo de domínio
+                    - https://www.rocketseat.com.br/projeto/index.html
+            - sempre apontará para o mesmo local, pois é absoluto
+
+            - Relativos
+                - relativo à página aberta no momento
+                - apontará para lugares diferentes
+        -->
+
+        <!--Absolutos-->
+        <a href="google.com">relativo: ir para o google</a><br>
+        <a href="https://www.google.com">Absoluto: ir para o goole</a>
+    </section>
 </body>
+
 </html>
