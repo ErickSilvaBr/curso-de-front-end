@@ -8,7 +8,7 @@ Conecta um elemento HTML com o CSS
 * Element/Type selector `h1, h2, p, div`
 * ID selector `#box, #container`
 * Class selector `.red, .container-cards`
-* Attribute selecotr, Pseudo-class, Pseudo-element, e outros
+* Attribute selector, Pseudo-class, Pseudo-element, e outros
 
 EX:
 
