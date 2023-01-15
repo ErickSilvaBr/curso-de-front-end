@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            border: 2px solid green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 2.5rem;
+        }
+
+        #box1 {
+            margin-bottom: 1rem;
+
+        }
+
+        #box2 {
+            border: 2px solid red;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+
+        .inline {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .inline p {
+            display: inline;
+            border: 1px solid blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">
+        <p>ola</p>
+    </div>
+    
+    <div class="box" id="box2">
+        <p>ola 2</p>
+    </div>
+    
+
+    <div class="inline">
+        <p>inline 1</p>
+    </div>
+
+    <div class="inline">
+        <p>inline2</p>
+    </div>
+</body>
+</html>
