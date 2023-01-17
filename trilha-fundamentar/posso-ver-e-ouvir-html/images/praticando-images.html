@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando imagens</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+        }
+
+        img {
+            height: 140px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.616);
+            transition-timing-function: ease;
+            transition: .3s;
+        }
+
+        img:hover {
+            box-shadow: 4px 4px 1.5px #fff, 8px 8px 0px #800080;
+            border: none;
+            transform: translate(-5px, -5px);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <a href="https://rocketseat.com.br" target="_blank">
+            <img 
+                src="https://rocketseat.com.br/icons/icon-48x48.png" 
+                alt="Logo da rocketseat"
+                title="Clique e vá para o site da Rocketseat"
+                >
+        </a>
+    </main>
+    
+</body>
+</html>
