@@ -8,17 +8,40 @@
     <style>
         * {
             box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
         }
         .box {
             width: 100px;
             height: 100px;
-            border: 2px solid #000;
+            border: 2px solid rgb(136, 136, 136);
             margin: 10px 0;
             padding: 15px;
+            margin-left: 2%;
         }
 
         .box:hover {
-            border: 2px solid red;
+            border: 2px solid black;
+        }
+
+        #box-sizing {
+            width: 200px;
+            height: 200px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: 3px solid rgb(136, 136, 136);
+
+        }
+
+        #box-sizing:hover {
+            border: 3px solid blue;
+        }
+
+        #box-sizing::after {
+            content: "Box-sizing é massa";
+
         }
 
         
@@ -39,5 +62,7 @@
     <div class="box">
         <p>conteúdo</p>
     </div>
+
+    <div class="box" id="box-sizing"></div>
 </body>
 </html>

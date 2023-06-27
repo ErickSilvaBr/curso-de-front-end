@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background-positions</title>
     <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+        }
         .box {
-            width: 400px;
-            height: 400px;
+            width: 100%;
+            height: calc(100% - 35px);
             background-image: url('https://source.unsplash.com/random');
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: center;
             background-size: cover;
+
         }
     </style>
 </head>
